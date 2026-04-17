@@ -20,8 +20,8 @@ jobs:
         run: dotnet restore MyWebApp.sln
 
       - name: Build
-        run: dotnet build MyWebApp.sln --configuration Release --no-restore
+        run: dotnet build MyWebApp.slnx --configuration Release --no-restore
 
       - name: Run tests
-        run: dotnet test MyWebApp.sln --configuration Release --no-restore
+        run: dotnet test MyWebApp.slnx --configuration Release --no-restore
 
